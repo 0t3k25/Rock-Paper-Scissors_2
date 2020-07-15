@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>じゃんけん</title> 
+</head> 
+
+<body> 
+
+<div id = "hand" class = "select">
+    <p>あなたの選択　
+        <select id ="mySelsect">
+            <option>グー</option>
+            <option>チョキ</option>
+            <option>パー</option>
+        </select>
+    </p>
+    <input type = "button"  value = "決定" onclick = "myGame()">
+</div>
+<div>
+    <p id = "CPU"></p>
+</div> 
+<div>
+    <p id = "result"></p>
+</div>
+<script src = "script.js"></script>
+</body> 
+</html>
